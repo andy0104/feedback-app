@@ -1,3 +1,8 @@
-gsa
-gsada
-sadas
+name: My First Github Action
+on: [push]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!!!!!"
+      - run: echo "This is step #2"
